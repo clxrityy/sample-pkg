@@ -3,6 +3,8 @@
         "target": "ES2016",
         "module": "CommonJS",
         "skipLibCheck": true,
-        "noEmit": true
+        "noEmit": true,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
     }
 }
