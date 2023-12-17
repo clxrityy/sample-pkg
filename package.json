@@ -1,0 +1,21 @@
+{
+  "name": "sample-pkg",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clxrityy/sample-pkg.git"
+  },
+  "keywords": [],
+  "author": "clxrity <contact@mjanglin.com> (https://mjanglin.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.10.4",
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3"
+  }
+}
