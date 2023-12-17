@@ -1,1 +1,3 @@
-export const sample = () => { };
+export const sample = () => {
+    console.log("sample-pkg");
+};
