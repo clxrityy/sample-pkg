@@ -1,5 +1,11 @@
 # @clxrity/sample-pkg
 
+## 0.3.3
+
+### Patch Changes
+
+- b135b78: implemented functionality with zod
+
 ## 0.3.2
 
 ### Patch Changes
