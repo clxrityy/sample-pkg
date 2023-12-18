@@ -11,10 +11,4 @@ const messageProtocol = createMessageProtocol({
     }
 });
 
-const send = messageProtocol.createHandler(window.postMessage);
-
-send({
-    type: "LOG_IN",
-    password: "123",
-    username: "test"
-});
+const handler = messageProtocol.createHandler((event) => {});
