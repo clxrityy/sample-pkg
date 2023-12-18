@@ -1,5 +1,11 @@
 # @clxrity/sample-pkg
 
+## 0.3.1
+
+### Patch Changes
+
+- markdown
+
 ## 0.3.0
 
 ### Minor Changes
