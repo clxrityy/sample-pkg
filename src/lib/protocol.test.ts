@@ -1,5 +1,5 @@
 import { describe, expect, it, vitest } from "vitest";
-import { createMessageProtocol } from "../../dist";
+import { createMessageProtocol } from "./protocol";
 import { z } from 'zod';
 
 const messageProtocol = createMessageProtocol({
@@ -19,7 +19,7 @@ describe("createMessageProtocol", () => {
     it("should error if a handled message does NOT match an event", () => {
 
         const testSender = vitest.fn();
-        const sender = messageProtocol.createSender(testSender);
+        const sender = messageProtocol.createHandler(testSender);
 
         expect(() =>
             // @ts-expect-error
@@ -35,7 +35,7 @@ describe("createMessageProtocol", () => {
     it("should pass if a handled message matches an event", () => {
 
         const testSender = vitest.fn();
-        const sender = messageProtocol.createSender(testSender);
+        const sender = messageProtocol.createHandler(testSender);
 
         sender({
             type: "LOG_IN",
