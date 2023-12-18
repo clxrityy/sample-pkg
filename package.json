@@ -18,7 +18,12 @@
     "type": "git",
     "url": "git+https://github.com/clxrityy/sample-pkg.git"
   },
-  "keywords": [],
+  "keywords": [
+    "zod",
+    "typescript",
+    "npm",
+    "package"
+  ],
   "author": "clxrity <contact@mjanglin.com> (https://mjanglin.com)",
   "license": "MIT",
   "peerDependencies": {
