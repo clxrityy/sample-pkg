@@ -1,5 +1,11 @@
 # @clxrity/sample-pkg
 
+## 0.3.0
+
+### Minor Changes
+
+- bd813d4: add message protocol
+
 ## 0.2.0
 
 ### Minor Changes
