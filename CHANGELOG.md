@@ -1,5 +1,11 @@
 # @clxrity/sample-pkg
 
+## 0.4.0
+
+### Minor Changes
+
+- fe52c54: fix things
+
 ## 0.3.3
 
 ### Patch Changes
