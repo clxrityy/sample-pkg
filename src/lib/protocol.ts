@@ -8,7 +8,7 @@ export const createMessageProtocol = <T extends Record<string, z.ZodRawShape>, E
         createSender: (func: (event: EventsAsDiscoUnion) => void) => {
             return func;
         },
-        createHandler: (func: (event: EventsAsDiscoUnion) => void) => {
+        createReceiver: (func: (event: EventsAsDiscoUnion) => void) => {
             return func;
         }
     }
